@@ -20,9 +20,9 @@
             <table class="table table-striped" id="mydata">
                 <thead>
                     <tr>
-                    <tr>Kode</tr>
-                    <th>Nama Barang</th>
-                    <th>Harga</th>
+                        <th>Kode</th>
+                        <th>Nama Barang</th>
+                        <th>Harga</th>
                     </tr>
                 </thead>
                 <tbody id="show_data">

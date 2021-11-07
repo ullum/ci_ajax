@@ -14,7 +14,7 @@ class Barang extends CI_Controller
 
     function data_barang()
     {
-        $this->m_barang->barang_list();
-        echo json_encode('$data');
+        $data = $this->m_barang->barang_list();
+        echo json_encode($data);
     }
 }
